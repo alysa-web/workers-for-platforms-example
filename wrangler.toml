@@ -1,19 +1,19 @@
 name = "workers-for-platforms-example-project"
 main = "src/index.ts"
-compatibility_date = "2022-08-15"
+compatibility_date = "2025-10-22"
 
 [[ dispatch_namespaces ]]
 binding = "dispatcher"
 namespace = "workers-for-platforms-example-project"
 
 [[ d1_databases ]]
-binding = "DB"
+binding = "worker_mappings"
 database_name = "workers-for-platforms-example-project"
-database_id = ""
-preview_database_id = ""
+database_id = "placeholder-kv-id"
+preview_database_id = "placeholder-preview-kv-id"
 
-[vars]
-DISPATCH_NAMESPACE_ACCOUNT_ID = ""
+[var]
+DISPATCH_NAMESPACE_ACCOUNT_ID = "binding" : "kv_binding"," id 
 DISPATCH_NAMESPACE_AUTH_EMAIL = ""
 # The necessary secrets are:
 # - DISPATCH_NAMESPACE_AUTH_KEY
