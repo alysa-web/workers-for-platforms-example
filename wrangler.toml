@@ -13,7 +13,7 @@ database_id = "placeholder-kv-id"
 preview_database_id = "placeholder-preview-kv-id"
 
 [var]
-DISPATCH_NAMESPACE_ACCOUNT_ID = "binding" :
+DISPATCH_NAMESPACE_ACCOUNT_ID = "binding" 
 DISPATCH_NAMESPACE_AUTH_EMAIL = ""
 # The necessary secrets are:
 # - DISPATCH_NAMESPACE_AUTH_KEY
